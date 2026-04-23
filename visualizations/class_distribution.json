@@ -1,0 +1,46 @@
+{
+  "type": "bar",
+  "title": "Class Distribution",
+  "data": {
+    "labels": [
+      "street waste",
+      "patched crack",
+      "patched pothole",
+      "alligator crack",
+      "pothole",
+      "crack",
+      "puddle",
+      "manhole",
+      "speed bump",
+      "patched alligator crack",
+      "clay-patched crack"
+    ],
+    "values": [
+      6291,
+      41692,
+      8824,
+      8224,
+      16271,
+      76938,
+      1102,
+      28784,
+      2220,
+      2503,
+      328
+    ],
+    "total": 193177,
+    "percentages": [
+      3.26,
+      21.58,
+      4.57,
+      4.26,
+      8.42,
+      39.83,
+      0.57,
+      14.9,
+      1.15,
+      1.3,
+      0.17
+    ]
+  }
+}

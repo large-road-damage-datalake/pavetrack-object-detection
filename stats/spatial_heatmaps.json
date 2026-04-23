@@ -1,0 +1,50 @@
+{
+  "generated": true,
+  "dir": "visualizations/spatial_heatmaps",
+  "classes": [
+    {
+      "class": "crack",
+      "file": "visualizations/spatial_heatmaps/crack.png"
+    },
+    {
+      "class": "patched crack",
+      "file": "visualizations/spatial_heatmaps/patched_crack.png"
+    },
+    {
+      "class": "manhole",
+      "file": "visualizations/spatial_heatmaps/manhole.png"
+    },
+    {
+      "class": "pothole",
+      "file": "visualizations/spatial_heatmaps/pothole.png"
+    },
+    {
+      "class": "patched pothole",
+      "file": "visualizations/spatial_heatmaps/patched_pothole.png"
+    },
+    {
+      "class": "alligator crack",
+      "file": "visualizations/spatial_heatmaps/alligator_crack.png"
+    },
+    {
+      "class": "street waste",
+      "file": "visualizations/spatial_heatmaps/street_waste.png"
+    },
+    {
+      "class": "patched alligator crack",
+      "file": "visualizations/spatial_heatmaps/patched_alligator_crack.png"
+    },
+    {
+      "class": "speed bump",
+      "file": "visualizations/spatial_heatmaps/speed_bump.png"
+    },
+    {
+      "class": "puddle",
+      "file": "visualizations/spatial_heatmaps/puddle.png"
+    },
+    {
+      "class": "clay-patched crack",
+      "file": "visualizations/spatial_heatmaps/clay-patched_crack.png"
+    }
+  ]
+}

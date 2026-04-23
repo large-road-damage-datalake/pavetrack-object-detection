@@ -1,0 +1,91 @@
+{
+  "total_images": 51012,
+  "total_annotations": 193177,
+  "total_classes": 11,
+  "splits_breakdown": {
+    "china_train": {
+      "images": 35000,
+      "annotations": 130697,
+      "classes": {
+        "street waste": 4420,
+        "patched crack": 29042,
+        "patched pothole": 6131,
+        "alligator crack": 5681,
+        "pothole": 10747,
+        "crack": 50458,
+        "puddle": 792,
+        "manhole": 20070,
+        "speed bump": 1578,
+        "patched alligator crack": 1778
+      }
+    },
+    "china_val": {
+      "images": 7500,
+      "annotations": 28175,
+      "classes": {
+        "street waste": 922,
+        "patched crack": 6320,
+        "patched pothole": 1331,
+        "puddle": 165,
+        "crack": 10863,
+        "speed bump": 325,
+        "pothole": 2269,
+        "manhole": 4347,
+        "alligator crack": 1285,
+        "patched alligator crack": 348
+      }
+    },
+    "china_test": {
+      "images": 7500,
+      "annotations": 28318,
+      "classes": {
+        "patched crack": 6274,
+        "patched pothole": 1325,
+        "street waste": 949,
+        "speed bump": 317,
+        "crack": 10733,
+        "alligator crack": 1258,
+        "manhole": 4341,
+        "pothole": 2599,
+        "patched alligator crack": 377,
+        "puddle": 145
+      }
+    },
+    "us_train": {
+      "images": 711,
+      "annotations": 4222,
+      "classes": {
+        "pothole": 462,
+        "crack": 3439,
+        "manhole": 18,
+        "patched pothole": 26,
+        "patched crack": 42,
+        "clay-patched crack": 235
+      }
+    },
+    "us_val": {
+      "images": 148,
+      "annotations": 900,
+      "classes": {
+        "crack": 752,
+        "pothole": 87,
+        "manhole": 4,
+        "patched pothole": 6,
+        "patched crack": 6,
+        "clay-patched crack": 45
+      }
+    },
+    "us_test": {
+      "images": 153,
+      "annotations": 865,
+      "classes": {
+        "crack": 693,
+        "pothole": 107,
+        "manhole": 4,
+        "patched pothole": 5,
+        "patched crack": 8,
+        "clay-patched crack": 48
+      }
+    }
+  }
+}

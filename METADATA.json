@@ -1,0 +1,990 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "pavetrack-object-detection",
+    "name": "PaveTrack",
+    "short_name": "pavetrack-od",
+    "description": "Object detection packaging of PaveTrack_OD, a multi-country pavement distress dataset released through Science Data Bank with YOLO annotations.",
+    "year": 2025
+  },
+  "project_context": {
+    "task": "object_detection",
+    "tasks": [
+      "object_detection"
+    ],
+    "damage_types": [
+      "crack",
+      "pothole"
+    ],
+    "task_classification": {
+      "primary_task": "object_detection"
+    },
+    "label_taxonomy_version": "road_damage_v2"
+  },
+  "imaging_setup": {
+    "camera": "Vehicle-mounted industrial and commercial RGB cameras",
+    "camera_viewpoint": [
+      "wide-view"
+    ],
+    "resolution": "Country-dependent source resolutions",
+    "lighting_conditions": "Real-world outdoor daylight and varying weather conditions",
+    "capture_height_mm": "Not reported",
+    "geotagged": true,
+    "resolution_by_country": [
+      {
+        "name": "China",
+        "resolutions": [
+          "634x414",
+          "720x405",
+          "720x960",
+          "735x563",
+          "744x992",
+          "750x1000",
+          "816x459",
+          "816x612",
+          "900x600",
+          "960x540",
+          "1024x576",
+          "1024x768",
+          "1040x584",
+          "1040x780",
+          "1080x1920",
+          "1152x864",
+          "1280x720",
+          "1280x960",
+          "1332x750",
+          "1427x851",
+          "1433x794",
+          "1440x1080",
+          "1508x859",
+          "1632x918",
+          "1632x1224",
+          "1706x1279",
+          "1706x1280",
+          "1824x1368",
+          "1920x1080",
+          "1920x1088",
+          "1920x1440",
+          "1952x1464",
+          "1984x1488",
+          "2000x1496",
+          "2000x1500",
+          "2016x1512",
+          "2048x1536",
+          "2200x1650",
+          "3000x4000",
+          "3120x4160",
+          "3264x2448",
+          "3648x2736",
+          "4000x2992",
+          "4000x3000",
+          "4080x3060",
+          "4096x3072",
+          "4160x3120",
+          "4608x3456"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "634x414",
+            "count": 1
+          },
+          {
+            "resolution": "720x405",
+            "count": 1
+          },
+          {
+            "resolution": "720x960",
+            "count": 1
+          },
+          {
+            "resolution": "735x563",
+            "count": 1
+          },
+          {
+            "resolution": "744x992",
+            "count": 3
+          },
+          {
+            "resolution": "750x1000",
+            "count": 1
+          },
+          {
+            "resolution": "816x459",
+            "count": 1
+          },
+          {
+            "resolution": "816x612",
+            "count": 6
+          },
+          {
+            "resolution": "900x600",
+            "count": 2
+          },
+          {
+            "resolution": "960x540",
+            "count": 2
+          },
+          {
+            "resolution": "1024x576",
+            "count": 3
+          },
+          {
+            "resolution": "1024x768",
+            "count": 1
+          },
+          {
+            "resolution": "1040x584",
+            "count": 1
+          },
+          {
+            "resolution": "1040x780",
+            "count": 4
+          },
+          {
+            "resolution": "1080x1920",
+            "count": 1
+          },
+          {
+            "resolution": "1152x864",
+            "count": 6
+          },
+          {
+            "resolution": "1280x720",
+            "count": 7690
+          },
+          {
+            "resolution": "1280x960",
+            "count": 2
+          },
+          {
+            "resolution": "1332x750",
+            "count": 1
+          },
+          {
+            "resolution": "1427x851",
+            "count": 1
+          },
+          {
+            "resolution": "1433x794",
+            "count": 1
+          },
+          {
+            "resolution": "1440x1080",
+            "count": 7
+          },
+          {
+            "resolution": "1508x859",
+            "count": 1
+          },
+          {
+            "resolution": "1632x918",
+            "count": 13
+          },
+          {
+            "resolution": "1632x1224",
+            "count": 1
+          },
+          {
+            "resolution": "1706x1279",
+            "count": 2
+          },
+          {
+            "resolution": "1706x1280",
+            "count": 2
+          },
+          {
+            "resolution": "1824x1368",
+            "count": 2
+          },
+          {
+            "resolution": "1920x1080",
+            "count": 41132
+          },
+          {
+            "resolution": "1920x1088",
+            "count": 810
+          },
+          {
+            "resolution": "1920x1440",
+            "count": 1
+          },
+          {
+            "resolution": "1952x1464",
+            "count": 1
+          },
+          {
+            "resolution": "1984x1488",
+            "count": 1
+          },
+          {
+            "resolution": "2000x1496",
+            "count": 11
+          },
+          {
+            "resolution": "2000x1500",
+            "count": 51
+          },
+          {
+            "resolution": "2016x1512",
+            "count": 3
+          },
+          {
+            "resolution": "2048x1536",
+            "count": 61
+          },
+          {
+            "resolution": "2200x1650",
+            "count": 2
+          },
+          {
+            "resolution": "3000x4000",
+            "count": 1
+          },
+          {
+            "resolution": "3120x4160",
+            "count": 1
+          },
+          {
+            "resolution": "3264x2448",
+            "count": 4
+          },
+          {
+            "resolution": "3648x2736",
+            "count": 4
+          },
+          {
+            "resolution": "4000x2992",
+            "count": 131
+          },
+          {
+            "resolution": "4000x3000",
+            "count": 7
+          },
+          {
+            "resolution": "4080x3060",
+            "count": 8
+          },
+          {
+            "resolution": "4096x3072",
+            "count": 2
+          },
+          {
+            "resolution": "4160x3120",
+            "count": 9
+          },
+          {
+            "resolution": "4608x3456",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "name": "US",
+        "resolutions": [
+          "1280x600",
+          "1920x1080"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "1280x600",
+            "count": 740
+          },
+          {
+            "resolution": "1920x1080",
+            "count": 272
+          }
+        ]
+      }
+    ],
+    "resolution_details": [
+      {
+        "resolution": "634x414",
+        "count": 1
+      },
+      {
+        "resolution": "720x405",
+        "count": 1
+      },
+      {
+        "resolution": "720x960",
+        "count": 1
+      },
+      {
+        "resolution": "735x563",
+        "count": 1
+      },
+      {
+        "resolution": "744x992",
+        "count": 3
+      },
+      {
+        "resolution": "750x1000",
+        "count": 1
+      },
+      {
+        "resolution": "816x459",
+        "count": 1
+      },
+      {
+        "resolution": "816x612",
+        "count": 6
+      },
+      {
+        "resolution": "900x600",
+        "count": 2
+      },
+      {
+        "resolution": "960x540",
+        "count": 2
+      },
+      {
+        "resolution": "1024x576",
+        "count": 3
+      },
+      {
+        "resolution": "1024x768",
+        "count": 1
+      },
+      {
+        "resolution": "1040x584",
+        "count": 1
+      },
+      {
+        "resolution": "1040x780",
+        "count": 4
+      },
+      {
+        "resolution": "1080x1920",
+        "count": 1
+      },
+      {
+        "resolution": "1152x864",
+        "count": 6
+      },
+      {
+        "resolution": "1280x600",
+        "count": 740
+      },
+      {
+        "resolution": "1280x720",
+        "count": 7690
+      },
+      {
+        "resolution": "1280x960",
+        "count": 2
+      },
+      {
+        "resolution": "1332x750",
+        "count": 1
+      },
+      {
+        "resolution": "1427x851",
+        "count": 1
+      },
+      {
+        "resolution": "1433x794",
+        "count": 1
+      },
+      {
+        "resolution": "1440x1080",
+        "count": 7
+      },
+      {
+        "resolution": "1508x859",
+        "count": 1
+      },
+      {
+        "resolution": "1632x918",
+        "count": 13
+      },
+      {
+        "resolution": "1632x1224",
+        "count": 1
+      },
+      {
+        "resolution": "1706x1279",
+        "count": 2
+      },
+      {
+        "resolution": "1706x1280",
+        "count": 2
+      },
+      {
+        "resolution": "1824x1368",
+        "count": 2
+      },
+      {
+        "resolution": "1920x1080",
+        "count": 41404
+      },
+      {
+        "resolution": "1920x1088",
+        "count": 810
+      },
+      {
+        "resolution": "1920x1440",
+        "count": 1
+      },
+      {
+        "resolution": "1952x1464",
+        "count": 1
+      },
+      {
+        "resolution": "1984x1488",
+        "count": 1
+      },
+      {
+        "resolution": "2000x1496",
+        "count": 11
+      },
+      {
+        "resolution": "2000x1500",
+        "count": 51
+      },
+      {
+        "resolution": "2016x1512",
+        "count": 3
+      },
+      {
+        "resolution": "2048x1536",
+        "count": 61
+      },
+      {
+        "resolution": "2200x1650",
+        "count": 2
+      },
+      {
+        "resolution": "3000x4000",
+        "count": 1
+      },
+      {
+        "resolution": "3120x4160",
+        "count": 1
+      },
+      {
+        "resolution": "3264x2448",
+        "count": 4
+      },
+      {
+        "resolution": "3648x2736",
+        "count": 4
+      },
+      {
+        "resolution": "4000x2992",
+        "count": 131
+      },
+      {
+        "resolution": "4000x3000",
+        "count": 7
+      },
+      {
+        "resolution": "4080x3060",
+        "count": 8
+      },
+      {
+        "resolution": "4096x3072",
+        "count": 2
+      },
+      {
+        "resolution": "4160x3120",
+        "count": 9
+      },
+      {
+        "resolution": "4608x3456",
+        "count": 2
+      }
+    ]
+  },
+  "annotation_schema": [
+    {
+      "type": "bounding_box",
+      "description": "YOLO TXT annotations for pavement distress and road-context categories",
+      "classes": [
+        {
+          "id": 1,
+          "name": "crack",
+          "description": "Unintentional break in pavement surface (longitudinal/transverse)",
+          "color": "#E64A19",
+          "canonical_name": "crack",
+          "instances": 76938
+        },
+        {
+          "id": 2,
+          "name": "patched crack",
+          "description": "Crack that has been repaired with patch material",
+          "color": "#FF9800",
+          "canonical_name": "repair.general",
+          "instances": 41692
+        },
+        {
+          "id": 3,
+          "name": "pothole",
+          "description": "Bowl-shaped depression or hole in pavement surface",
+          "color": "#6A1B9A",
+          "canonical_name": "pothole",
+          "instances": 16271
+        },
+        {
+          "id": 4,
+          "name": "patched pothole",
+          "description": "Pothole that has been repaired with patch material",
+          "color": "#8E24AA",
+          "canonical_name": "repair.general",
+          "instances": 8824
+        },
+        {
+          "id": 5,
+          "name": "alligator crack",
+          "description": "Interconnected fatigue crack network (alligatoring)",
+          "color": "#3949AB",
+          "canonical_name": "crack.alligator",
+          "instances": 8224
+        },
+        {
+          "id": 6,
+          "name": "patched alligator crack",
+          "description": "Alligator crack region that has been repaired",
+          "color": "#5C6BC0",
+          "canonical_name": "repair.general",
+          "instances": 2503
+        },
+        {
+          "id": 7,
+          "name": "clay-patched crack",
+          "description": "Crack repaired using clay-based material",
+          "color": "#F57C00",
+          "canonical_name": "repair.general",
+          "instances": 328
+        },
+        {
+          "id": 8,
+          "name": "manhole",
+          "description": "Manhole cover or related utility cover feature",
+          "color": "#455A64",
+          "canonical_name": "context.manhole",
+          "instances": 28784
+        },
+        {
+          "id": 9,
+          "name": "street waste",
+          "description": "Loose street debris/waste object on road surface",
+          "color": "#00897B",
+          "canonical_name": "context.object_fixed",
+          "instances": 6291
+        },
+        {
+          "id": 10,
+          "name": "speed bump",
+          "description": "Raised traffic-calming road feature",
+          "color": "#C0CA33",
+          "canonical_name": "context.speed_bump",
+          "instances": 2220
+        },
+        {
+          "id": 11,
+          "name": "puddle",
+          "description": "Standing water accumulation on pavement",
+          "color": "#039BE5",
+          "canonical_name": "context.surface_water",
+          "instances": 1102
+        }
+      ]
+    }
+  ],
+  "class_taxonomy": {
+    "version": "road_damage_v2",
+    "classes": [
+      {
+        "canonical_name": "context.manhole",
+        "display_name": "Manhole",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "manhole",
+        "role": "context",
+        "semantic_role": "non_road_context",
+        "training_role": "context",
+        "status": "dataset_specific",
+        "is_damage_target": false,
+        "aliases": [
+          "street_inventory",
+          "manhole cover",
+          "manhole"
+        ],
+        "source_labels": [
+          "manhole"
+        ],
+        "taxonomy_source": "codebook_specialized",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "context.object_fixed",
+        "display_name": "Street Waste",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "street_waste",
+        "role": "context",
+        "semantic_role": "non_road_context",
+        "training_role": "context",
+        "status": "dataset_specific",
+        "is_damage_target": false,
+        "aliases": [
+          "object_fixed",
+          "street waste"
+        ],
+        "source_labels": [
+          "street waste"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "context.speed_bump",
+        "display_name": "Speed Bump",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "speed_bump",
+        "role": "context",
+        "semantic_role": "road_feature",
+        "training_role": "context",
+        "status": "stable",
+        "is_damage_target": false,
+        "aliases": [
+          "speed bump"
+        ],
+        "source_labels": [
+          "speed bump"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "context.surface_water",
+        "display_name": "Puddle",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "surface_water",
+        "role": "context",
+        "semantic_role": "road_feature",
+        "training_role": "context",
+        "status": "stable",
+        "is_damage_target": false,
+        "aliases": [
+          "puddle"
+        ],
+        "source_labels": [
+          "puddle"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "crack",
+        "display_name": "Crack",
+        "damage_family": "crack",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
+        "is_damage_target": true,
+        "aliases": [
+          "crack",
+          "cracked"
+        ],
+        "source_labels": [
+          "crack"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "crack.alligator",
+        "display_name": "Alligator Crack",
+        "damage_family": "crack",
+        "damage_subtype": "alligator",
+        "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
+        "is_damage_target": true,
+        "aliases": [
+          "alligator",
+          "Alligator crack",
+          "Aligator Crack"
+        ],
+        "source_labels": [
+          "alligator crack"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "pothole",
+        "display_name": "Pothole",
+        "damage_family": "pothole",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
+        "is_damage_target": true,
+        "aliases": [
+          "pothole"
+        ],
+        "source_labels": [
+          "pothole"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "repair.general",
+        "display_name": "Repair",
+        "damage_family": "patch_repair",
+        "damage_subtype": "generic",
+        "role": "repair",
+        "semantic_role": "repair",
+        "training_role": "context",
+        "status": "stable",
+        "is_damage_target": false,
+        "aliases": [
+          "Repair",
+          "patched crack",
+          "patched pothole",
+          "patched alligator crack",
+          "clay-patched crack"
+        ],
+        "source_labels": [
+          "patched crack",
+          "patched pothole",
+          "patched alligator crack",
+          "clay-patched crack"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "unknown.example_class",
+        "display_name": "Example Class",
+        "damage_family": "unknown",
+        "damage_subtype": "",
+        "role": "unknown",
+        "semantic_role": "unknown",
+        "training_role": "ignore",
+        "status": "dataset_specific",
+        "is_damage_target": false,
+        "aliases": [
+          "example_class"
+        ],
+        "source_labels": [
+          "example_class"
+        ],
+        "taxonomy_source": "fallback_unknown",
+        "taxonomy_unresolved": true,
+        "mapping_type": "lossy",
+        "mapping_confidence": "low",
+        "mapping_note": "No deterministic alias or codebook mapping found",
+        "mapping_status": "draft"
+      }
+    ],
+    "damage_types": [
+      "crack",
+      "pothole"
+    ],
+    "unresolved_labels": [
+      "example_class"
+    ]
+  },
+  "statistics": {
+    "n_images": 51012,
+    "n_annotations": 193177,
+    "n_images_with_annotations": 51012,
+    "average_annotations_per_image": 3.786893280012546,
+    "dataset_size": "30.53 GB",
+    "dataset_size_bytes": 32783000768,
+    "dataset_file_count": 102024,
+    "image_format": "yolo",
+    "class_distribution": {
+      "street waste": 6291,
+      "patched crack": 41692,
+      "patched pothole": 8824,
+      "alligator crack": 8224,
+      "pothole": 16271,
+      "crack": 76938,
+      "puddle": 1102,
+      "manhole": 28784,
+      "speed bump": 2220,
+      "patched alligator crack": 2503,
+      "clay-patched crack": 328
+    },
+    "split": {
+      "china_train": {
+        "n_images": 35000,
+        "percentage": 0.69,
+        "n_images_with_annotations": 35000,
+        "annotation_coverage": 1.0,
+        "dataset_size": "20.28 GB",
+        "dataset_size_bytes": 21773713219,
+        "dataset_file_count": 70000
+      },
+      "china_val": {
+        "n_images": 7500,
+        "percentage": 0.15,
+        "n_images_with_annotations": 7500,
+        "annotation_coverage": 1.0,
+        "dataset_size": "4.36 GB",
+        "dataset_size_bytes": 4678252791,
+        "dataset_file_count": 15000
+      },
+      "china_test": {
+        "n_images": 7500,
+        "percentage": 0.15,
+        "n_images_with_annotations": 7500,
+        "annotation_coverage": 1.0,
+        "dataset_size": "4.35 GB",
+        "dataset_size_bytes": 4666797605,
+        "dataset_file_count": 15000
+      },
+      "us_train": {
+        "n_images": 711,
+        "percentage": 0.01,
+        "n_images_with_annotations": 711,
+        "annotation_coverage": 1.0,
+        "dataset_size": "1.08 GB",
+        "dataset_size_bytes": 1163408675,
+        "dataset_file_count": 1422
+      },
+      "us_val": {
+        "n_images": 148,
+        "percentage": 0.0,
+        "n_images_with_annotations": 148,
+        "annotation_coverage": 1.0,
+        "dataset_size": "234.24 MB",
+        "dataset_size_bytes": 245620685,
+        "dataset_file_count": 296
+      },
+      "us_test": {
+        "n_images": 153,
+        "percentage": 0.0,
+        "n_images_with_annotations": 153,
+        "annotation_coverage": 1.0,
+        "dataset_size": "243.39 MB",
+        "dataset_size_bytes": 255207793,
+        "dataset_file_count": 306
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "China",
+        "image_count": 50000,
+        "annotated_image_count": 50000,
+        "annotation_coverage": 1.0
+      },
+      {
+        "name": "US",
+        "image_count": 1012,
+        "annotated_image_count": 1012,
+        "annotation_coverage": 1.0
+      }
+    ],
+    "temporal_scope": "Published 2025"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Manual annotation with stratified train/val/test split by source authors",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published dataset and benchmark study"
+  },
+  "authors": [
+    {
+      "name": "Hanlin Yang",
+      "affiliation": "Tongji University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Jinpu Cao",
+      "affiliation": "Stanford University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Jun Wan",
+      "affiliation": "Chang'an University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Qian Gao",
+      "affiliation": "Tongji University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Chenglong Liu",
+      "affiliation": "Tongji University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Martin Fischer",
+      "affiliation": "Stanford University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Yuchuan Du",
+      "affiliation": "Tongji University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Yishun Li",
+      "affiliation": "Tongji University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Pooja Jain",
+      "affiliation": "The Williams Sale Partnership Ltd",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Difei Wu",
+      "affiliation": "Tongji University",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "Science Data Bank terms (license not explicitly specified in linked record)",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/pavetrack-object-detection",
+    "download": "https://www.scidb.cn/en/detail?dataSetId=e9ffbca43e6e4a5ebdd25663d0de9ad1",
+    "doi": "https://doi.org/10.57760/sciencedb.20383",
+    "paper": "https://www.nature.com/articles/s41597-025-05748-5",
+    "homepage": "https://www.scidb.cn/en/detail?dataSetId=e9ffbca43e6e4a5ebdd25663d0de9ad1"
+  },
+  "citation": {
+    "bibtex": "@article{yang2025pavetrack,\n  title = {A Large-Scale Image Repository for Automated Pavement Distress Analysis and Degradation Trend Prediction},\n  author = {Yang, Hanlin and Cao, Jinpu and Wan, Jun and Gao, Qian and Liu, Chenglong and Fischer, Martin and Du, Yuchuan and Li, Yishun and Jain, Pooja and Wu, Difei},\n  journal = {Scientific Data},\n  volume = {12},\n  pages = {1426},\n  year = {2025},\n  doi = {10.1038/s41597-025-05748-5},\n  url = {https://www.nature.com/articles/s41597-025-05748-5}\n\n@dataset{yang2025pavetrack_scidb,\n  title = {PaveTrack: A Large-Scale Image Repository for Automated Pavement Distress Analysis and Degradation Trend Prediction},\n  year = {2025},\n  doi = {10.57760/sciencedb.20383},\n  url = {https://doi.org/10.57760/sciencedb.20383}\n}"
+  },
+  "tags": [
+    "object-detection",
+    "pavement-distress",
+    "yolo",
+    "multi-country",
+    "china",
+    "us",
+    "sciencedb"
+  ],
+  "source_publication": {
+    "dataset_doi": "10.57760/sciencedb.20383",
+    "article_doi": "10.1038/s41597-025-05748-5",
+    "article_title": "A Large-Scale Image Repository for Automated Pavement Distress Analysis and Degradation Trend Prediction",
+    "journal": "Scientific Data",
+    "year": 2025
+  }
+}

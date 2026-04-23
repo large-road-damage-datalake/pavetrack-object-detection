@@ -1,0 +1,96 @@
+{
+  "columns": [
+    "Class",
+    "Images",
+    "Objects",
+    "Count on image, average",
+    "Area on image, average (%)"
+  ],
+  "data": [
+    [
+      "crack",
+      24993,
+      76938,
+      3.0784,
+      3.1648
+    ],
+    [
+      "patched crack",
+      12618,
+      41692,
+      3.3042,
+      4.1084
+    ],
+    [
+      "manhole",
+      17762,
+      28784,
+      1.6205,
+      0.7344
+    ],
+    [
+      "pothole",
+      7445,
+      16271,
+      2.1855,
+      1.7633
+    ],
+    [
+      "patched pothole",
+      5998,
+      8824,
+      1.4712,
+      2.8125
+    ],
+    [
+      "alligator crack",
+      5251,
+      8224,
+      1.5662,
+      7.2376
+    ],
+    [
+      "street waste",
+      6163,
+      6291,
+      1.0208,
+      0.6297
+    ],
+    [
+      "patched alligator crack",
+      1526,
+      2503,
+      1.6402,
+      4.6516
+    ],
+    [
+      "speed bump",
+      2055,
+      2220,
+      1.0803,
+      4.0228
+    ],
+    [
+      "puddle",
+      1000,
+      1102,
+      1.102,
+      6.2868
+    ],
+    [
+      "clay-patched crack",
+      245,
+      328,
+      1.3388,
+      0.8546
+    ]
+  ],
+  "description": "Images column counts images containing at least one object of class.",
+  "options": {
+    "sort": {
+      "columnIndex": 2,
+      "order": "desc"
+    },
+    "pageSize": 100
+  }
+}
