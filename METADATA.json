@@ -24,7 +24,8 @@
   "imaging_setup": {
     "camera": "Vehicle-mounted industrial and commercial RGB cameras",
     "camera_viewpoint": [
-      "wide-view"
+      "wide-view",
+      "top-down"
     ],
     "resolution": "Country-dependent source resolutions",
     "lighting_conditions": "Real-world outdoor daylight and varying weather conditions",
