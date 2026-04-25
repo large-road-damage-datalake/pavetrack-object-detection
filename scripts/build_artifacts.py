@@ -311,6 +311,7 @@ def _build_view_payload(view_id, label, split_names, scoped_stats_data):
     g = scoped_stats_data.get("global", {})
     n_images = int(g.get("num_images", 0))
     n_images_with_annotations = int(g.get("num_images_with_annotations", 0))
+    class_distribution = dict(g.get("class_distribution", {}) or {})
     res_hist = g.get("image_resolution_histogram", {}) or {}
     res_details = [
         {"resolution": str(k), "count": int(v)}
@@ -327,9 +328,9 @@ def _build_view_payload(view_id, label, split_names, scoped_stats_data):
             "num_annotations": int(g.get("num_annotations", 0)),
             "num_images_with_annotations": n_images_with_annotations,
             "num_images_without_annotations": max(0, n_images - n_images_with_annotations),
-            "num_classes": int(g.get("num_classes", 0)),
+            "num_classes": len(class_distribution),
             "annotation_coverage": round(float(g.get("annotation_coverage", 0.0)), 6),
-            "class_distribution": g.get("class_distribution", {}),
+            "class_distribution": class_distribution,
             "resolutions": res_list,
             "resolution_details": res_details,
         },

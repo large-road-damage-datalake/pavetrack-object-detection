@@ -920,7 +920,7 @@
     "homepage": "https://www.scidb.cn/en/detail?dataSetId=e9ffbca43e6e4a5ebdd25663d0de9ad1"
   },
   "citation": {
-    "bibtex": "@article{yang2025pavetrack,\n  title = {A Large-Scale Image Repository for Automated Pavement Distress Analysis and Degradation Trend Prediction},\n  author = {Yang, Hanlin and Cao, Jinpu and Wan, Jun and Gao, Qian and Liu, Chenglong and Fischer, Martin and Du, Yuchuan and Li, Yishun and Jain, Pooja and Wu, Difei},\n  journal = {Scientific Data},\n  volume = {12},\n  pages = {1426},\n  year = {2025},\n  doi = {10.1038/s41597-025-05748-5},\n  url = {https://www.nature.com/articles/s41597-025-05748-5}\n}\nn@dataset{yang2025pavetrack_scidb,\n  title = {PaveTrack: A Large-Scale Image Repository for Automated Pavement Distress Analysis and Degradation Trend Prediction},\n  year = {2025},\n  doi = {10.57760/sciencedb.20383},\n  url = {https://doi.org/10.57760/sciencedb.20383}\n}"
+    "bibtex": "@article{yang2025pavetrack,\n  title = {A Large-Scale Image Repository for Automated Pavement Distress Analysis and Degradation Trend Prediction},\n  author = {Yang, Hanlin and Cao, Jinpu and Wan, Jun and Gao, Qian and Liu, Chenglong and Fischer, Martin and Du, Yuchuan and Li, Yishun and Jain, Pooja and Wu, Difei},\n  journal = {Scientific Data},\n  volume = {12},\n  pages = {1426},\n  year = {2025},\n  doi = {10.1038/s41597-025-05748-5},\n  url = {https://www.nature.com/articles/s41597-025-05748-5}\n}\n\n@dataset{yang2025pavetrack_scidb,\n  title = {PaveTrack: A Large-Scale Image Repository for Automated Pavement Distress Analysis and Degradation Trend Prediction},\n  year = {2025},\n  doi = {10.57760/sciencedb.20383},\n  url = {https://doi.org/10.57760/sciencedb.20383}\n}"
   },
   "tags": [
     "object-detection",
