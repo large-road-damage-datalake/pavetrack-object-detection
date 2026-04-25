@@ -9,7 +9,32 @@
         "pothole"
       ],
       "num_classes": 3,
-      "objects": 15
+      "objects": 15,
+      "image_size": {
+        "width": 1280,
+        "height": 720
+      },
+      "resized_from": {
+        "width": 1920,
+        "height": 1080
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_01_c3_crack-manhole-pothole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
+      "slider_ready": true
     },
     {
       "file": "sample_02_c1_manhole.jpg",
@@ -18,7 +43,32 @@
         "manhole"
       ],
       "num_classes": 1,
-      "objects": 3
+      "objects": 3,
+      "image_size": {
+        "width": 1280,
+        "height": 720
+      },
+      "resized_from": {
+        "width": 1920,
+        "height": 1080
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_02_c1_manhole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
+      "slider_ready": true
     },
     {
       "file": "sample_03_c2_crack-patched_crack.jpg",
@@ -28,7 +78,32 @@
         "patched crack"
       ],
       "num_classes": 2,
-      "objects": 2
+      "objects": 2,
+      "image_size": {
+        "width": 1280,
+        "height": 720
+      },
+      "resized_from": {
+        "width": 1920,
+        "height": 1080
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_03_c2_crack-patched_crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
+      "slider_ready": true
     },
     {
       "file": "sample_04_c2_manhole-puddle.jpg",
@@ -38,7 +113,32 @@
         "puddle"
       ],
       "num_classes": 2,
-      "objects": 2
+      "objects": 2,
+      "image_size": {
+        "width": 1280,
+        "height": 720
+      },
+      "resized_from": {
+        "width": 1920,
+        "height": 1080
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_04_c2_manhole-puddle_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
+      "slider_ready": true
     },
     {
       "file": "sample_05_c3_crack-manhole-patched_crack.jpg",
@@ -49,7 +149,32 @@
         "patched crack"
       ],
       "num_classes": 3,
-      "objects": 10
+      "objects": 10,
+      "image_size": {
+        "width": 1280,
+        "height": 720
+      },
+      "resized_from": {
+        "width": 1920,
+        "height": 1080
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_05_c3_crack-manhole-patched_crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
+      "slider_ready": true
     },
     {
       "file": "sample_06_c4_crack-manhole-patched_crack.jpg",
@@ -61,7 +186,32 @@
         "patched pothole"
       ],
       "num_classes": 4,
-      "objects": 6
+      "objects": 6,
+      "image_size": {
+        "width": 1280,
+        "height": 720
+      },
+      "resized_from": {
+        "width": 1920,
+        "height": 1080
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_06_c4_crack-manhole-patched_crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
+      "slider_ready": true
     },
     {
       "file": "sample_07_c1_speed_bump.jpg",
@@ -70,7 +220,32 @@
         "speed bump"
       ],
       "num_classes": 1,
-      "objects": 1
+      "objects": 1,
+      "image_size": {
+        "width": 1280,
+        "height": 720
+      },
+      "resized_from": {
+        "width": 1920,
+        "height": 1080
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_07_c1_speed_bump_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
+      "slider_ready": true
     },
     {
       "file": "sample_08_c4_manhole-patched_alligator_crack-patched_crack.jpg",
@@ -82,7 +257,32 @@
         "patched pothole"
       ],
       "num_classes": 4,
-      "objects": 9
+      "objects": 9,
+      "image_size": {
+        "width": 1280,
+        "height": 720
+      },
+      "resized_from": {
+        "width": 1920,
+        "height": 1080
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_08_c4_manhole-patched_alligator_crack-patched_crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
+      "slider_ready": true
     },
     {
       "file": "sample_09_c1_alligator_crack.jpg",
@@ -91,7 +291,32 @@
         "alligator crack"
       ],
       "num_classes": 1,
-      "objects": 1
+      "objects": 1,
+      "image_size": {
+        "width": 1280,
+        "height": 720
+      },
+      "resized_from": {
+        "width": 1920,
+        "height": 1080
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_09_c1_alligator_crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
+      "slider_ready": true
     },
     {
       "file": "sample_10_c2_clay-patched_crack-crack.png",
@@ -101,8 +326,30 @@
         "crack"
       ],
       "num_classes": 2,
-      "objects": 3
+      "objects": 3,
+      "image_size": {
+        "width": 1280,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_10_c2_clay-patched_crack-crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "pothole",
+        "2": "patched crack",
+        "3": "patched pothole",
+        "4": "clay-patched crack",
+        "5": "manhole"
+      },
+      "slider_ready": true
     }
   ],
-  "count": 10
+  "count": 10,
+  "slider_pairs": 10
 }
