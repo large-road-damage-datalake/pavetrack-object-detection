@@ -24,12 +24,203 @@
   "imaging_setup": {
     "camera": "Vehicle-mounted industrial and commercial RGB cameras",
     "camera_viewpoint": [
-      "wide-view"
+      "wide-view",
+      "top-down"
     ],
     "resolution": "Country-dependent source resolutions",
     "lighting_conditions": "Real-world outdoor daylight and varying weather conditions",
     "capture_height_mm": "Not reported",
     "geotagged": true,
+    "resolution_details": [
+      {
+        "resolution": "634x414",
+        "count": 1
+      },
+      {
+        "resolution": "735x563",
+        "count": 1
+      },
+      {
+        "resolution": "744x992",
+        "count": 3
+      },
+      {
+        "resolution": "750x1000",
+        "count": 1
+      },
+      {
+        "resolution": "816x459",
+        "count": 1
+      },
+      {
+        "resolution": "816x612",
+        "count": 3
+      },
+      {
+        "resolution": "900x600",
+        "count": 2
+      },
+      {
+        "resolution": "960x540",
+        "count": 1
+      },
+      {
+        "resolution": "1024x576",
+        "count": 2
+      },
+      {
+        "resolution": "1024x768",
+        "count": 1
+      },
+      {
+        "resolution": "1040x584",
+        "count": 1
+      },
+      {
+        "resolution": "1040x780",
+        "count": 4
+      },
+      {
+        "resolution": "1080x1920",
+        "count": 1
+      },
+      {
+        "resolution": "1152x864",
+        "count": 6
+      },
+      {
+        "resolution": "1280x600",
+        "count": 740
+      },
+      {
+        "resolution": "1280x720",
+        "count": 7215
+      },
+      {
+        "resolution": "1280x960",
+        "count": 2
+      },
+      {
+        "resolution": "1332x750",
+        "count": 1
+      },
+      {
+        "resolution": "1427x851",
+        "count": 1
+      },
+      {
+        "resolution": "1433x794",
+        "count": 1
+      },
+      {
+        "resolution": "1440x1080",
+        "count": 7
+      },
+      {
+        "resolution": "1508x859",
+        "count": 1
+      },
+      {
+        "resolution": "1632x918",
+        "count": 12
+      },
+      {
+        "resolution": "1632x1224",
+        "count": 1
+      },
+      {
+        "resolution": "1706x1279",
+        "count": 2
+      },
+      {
+        "resolution": "1706x1280",
+        "count": 2
+      },
+      {
+        "resolution": "1824x1368",
+        "count": 2
+      },
+      {
+        "resolution": "1920x1080",
+        "count": 37027
+      },
+      {
+        "resolution": "1920x1088",
+        "count": 797
+      },
+      {
+        "resolution": "1920x1440",
+        "count": 1
+      },
+      {
+        "resolution": "1952x1464",
+        "count": 1
+      },
+      {
+        "resolution": "1984x1488",
+        "count": 1
+      },
+      {
+        "resolution": "2000x1496",
+        "count": 10
+      },
+      {
+        "resolution": "2000x1500",
+        "count": 47
+      },
+      {
+        "resolution": "2016x1512",
+        "count": 3
+      },
+      {
+        "resolution": "2048x1536",
+        "count": 58
+      },
+      {
+        "resolution": "2200x1650",
+        "count": 2
+      },
+      {
+        "resolution": "3000x4000",
+        "count": 1
+      },
+      {
+        "resolution": "3120x4160",
+        "count": 1
+      },
+      {
+        "resolution": "3264x2448",
+        "count": 4
+      },
+      {
+        "resolution": "3648x2736",
+        "count": 4
+      },
+      {
+        "resolution": "4000x2992",
+        "count": 125
+      },
+      {
+        "resolution": "4000x3000",
+        "count": 7
+      },
+      {
+        "resolution": "4080x3060",
+        "count": 8
+      },
+      {
+        "resolution": "4096x3072",
+        "count": 2
+      },
+      {
+        "resolution": "4160x3120",
+        "count": 8
+      },
+      {
+        "resolution": "4608x3456",
+        "count": 2
+      }
+    ],
     "resolution_by_country": [
       {
         "name": "China",
@@ -284,196 +475,6 @@
             "count": 272
           }
         ]
-      }
-    ],
-    "resolution_details": [
-      {
-        "resolution": "634x414",
-        "count": 1
-      },
-      {
-        "resolution": "735x563",
-        "count": 1
-      },
-      {
-        "resolution": "744x992",
-        "count": 3
-      },
-      {
-        "resolution": "750x1000",
-        "count": 1
-      },
-      {
-        "resolution": "816x459",
-        "count": 1
-      },
-      {
-        "resolution": "816x612",
-        "count": 3
-      },
-      {
-        "resolution": "900x600",
-        "count": 2
-      },
-      {
-        "resolution": "960x540",
-        "count": 1
-      },
-      {
-        "resolution": "1024x576",
-        "count": 2
-      },
-      {
-        "resolution": "1024x768",
-        "count": 1
-      },
-      {
-        "resolution": "1040x584",
-        "count": 1
-      },
-      {
-        "resolution": "1040x780",
-        "count": 4
-      },
-      {
-        "resolution": "1080x1920",
-        "count": 1
-      },
-      {
-        "resolution": "1152x864",
-        "count": 6
-      },
-      {
-        "resolution": "1280x600",
-        "count": 740
-      },
-      {
-        "resolution": "1280x720",
-        "count": 7215
-      },
-      {
-        "resolution": "1280x960",
-        "count": 2
-      },
-      {
-        "resolution": "1332x750",
-        "count": 1
-      },
-      {
-        "resolution": "1427x851",
-        "count": 1
-      },
-      {
-        "resolution": "1433x794",
-        "count": 1
-      },
-      {
-        "resolution": "1440x1080",
-        "count": 7
-      },
-      {
-        "resolution": "1508x859",
-        "count": 1
-      },
-      {
-        "resolution": "1632x918",
-        "count": 12
-      },
-      {
-        "resolution": "1632x1224",
-        "count": 1
-      },
-      {
-        "resolution": "1706x1279",
-        "count": 2
-      },
-      {
-        "resolution": "1706x1280",
-        "count": 2
-      },
-      {
-        "resolution": "1824x1368",
-        "count": 2
-      },
-      {
-        "resolution": "1920x1080",
-        "count": 37027
-      },
-      {
-        "resolution": "1920x1088",
-        "count": 797
-      },
-      {
-        "resolution": "1920x1440",
-        "count": 1
-      },
-      {
-        "resolution": "1952x1464",
-        "count": 1
-      },
-      {
-        "resolution": "1984x1488",
-        "count": 1
-      },
-      {
-        "resolution": "2000x1496",
-        "count": 10
-      },
-      {
-        "resolution": "2000x1500",
-        "count": 47
-      },
-      {
-        "resolution": "2016x1512",
-        "count": 3
-      },
-      {
-        "resolution": "2048x1536",
-        "count": 58
-      },
-      {
-        "resolution": "2200x1650",
-        "count": 2
-      },
-      {
-        "resolution": "3000x4000",
-        "count": 1
-      },
-      {
-        "resolution": "3120x4160",
-        "count": 1
-      },
-      {
-        "resolution": "3264x2448",
-        "count": 4
-      },
-      {
-        "resolution": "3648x2736",
-        "count": 4
-      },
-      {
-        "resolution": "4000x2992",
-        "count": 125
-      },
-      {
-        "resolution": "4000x3000",
-        "count": 7
-      },
-      {
-        "resolution": "4080x3060",
-        "count": 8
-      },
-      {
-        "resolution": "4096x3072",
-        "count": 2
-      },
-      {
-        "resolution": "4160x3120",
-        "count": 8
-      },
-      {
-        "resolution": "4608x3456",
-        "count": 2
       }
     ]
   },

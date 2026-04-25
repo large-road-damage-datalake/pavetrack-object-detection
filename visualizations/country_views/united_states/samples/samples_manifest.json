@@ -1,0 +1,324 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c4_crack-manhole-patched_pothole.png",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/test/images\\0392_S3.png",
+      "classes": [
+        "crack",
+        "manhole",
+        "patched pothole",
+        "pothole"
+      ],
+      "num_classes": 4,
+      "objects": 10,
+      "image_size": {
+        "width": 1280,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_01_c4_crack-manhole-patched_pothole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "pothole",
+        "2": "patched crack",
+        "3": "patched pothole",
+        "4": "clay-patched crack",
+        "5": "manhole"
+      },
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c3_crack-manhole-patched_crack.png",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/train/images\\0067_S1.png",
+      "classes": [
+        "crack",
+        "manhole",
+        "patched crack"
+      ],
+      "num_classes": 3,
+      "objects": 9,
+      "image_size": {
+        "width": 1280,
+        "height": 720
+      },
+      "resized_from": {
+        "width": 1920,
+        "height": 1080
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_02_c3_crack-manhole-patched_crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "pothole",
+        "2": "patched crack",
+        "3": "patched pothole",
+        "4": "clay-patched crack",
+        "5": "manhole"
+      },
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c2_clay-patched_crack-crack.png",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/val/images\\0955_S4.png",
+      "classes": [
+        "clay-patched crack",
+        "crack"
+      ],
+      "num_classes": 2,
+      "objects": 7,
+      "image_size": {
+        "width": 1280,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_03_c2_clay-patched_crack-crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "pothole",
+        "2": "patched crack",
+        "3": "patched pothole",
+        "4": "clay-patched crack",
+        "5": "manhole"
+      },
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c1_crack.png",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/train/images\\0220_S2.png",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 75,
+      "image_size": {
+        "width": 1280,
+        "height": 720
+      },
+      "resized_from": {
+        "width": 1920,
+        "height": 1080
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_04_c1_crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "pothole",
+        "2": "patched crack",
+        "3": "patched pothole",
+        "4": "clay-patched crack",
+        "5": "manhole"
+      },
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c3_crack-manhole-pothole.png",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/train/images\\0423_S3.png",
+      "classes": [
+        "crack",
+        "manhole",
+        "pothole"
+      ],
+      "num_classes": 3,
+      "objects": 23,
+      "image_size": {
+        "width": 1280,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_05_c3_crack-manhole-pothole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "pothole",
+        "2": "patched crack",
+        "3": "patched pothole",
+        "4": "clay-patched crack",
+        "5": "manhole"
+      },
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c3_crack-patched_pothole-pothole.png",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/train/images\\0420_S3.png",
+      "classes": [
+        "crack",
+        "patched pothole",
+        "pothole"
+      ],
+      "num_classes": 3,
+      "objects": 13,
+      "image_size": {
+        "width": 1280,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_06_c3_crack-patched_pothole-pothole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "pothole",
+        "2": "patched crack",
+        "3": "patched pothole",
+        "4": "clay-patched crack",
+        "5": "manhole"
+      },
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c3_crack-manhole-patched_crack.png",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/train/images\\0440_S3.png",
+      "classes": [
+        "crack",
+        "manhole",
+        "patched crack"
+      ],
+      "num_classes": 3,
+      "objects": 13,
+      "image_size": {
+        "width": 1280,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_07_c3_crack-manhole-patched_crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "pothole",
+        "2": "patched crack",
+        "3": "patched pothole",
+        "4": "clay-patched crack",
+        "5": "manhole"
+      },
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c3_crack-patched_pothole-pothole.png",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/train/images\\0424_S3.png",
+      "classes": [
+        "crack",
+        "patched pothole",
+        "pothole"
+      ],
+      "num_classes": 3,
+      "objects": 11,
+      "image_size": {
+        "width": 1280,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_08_c3_crack-patched_pothole-pothole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "pothole",
+        "2": "patched crack",
+        "3": "patched pothole",
+        "4": "clay-patched crack",
+        "5": "manhole"
+      },
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c3_crack-patched_crack-pothole.png",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/val/images\\0436_S3.png",
+      "classes": [
+        "crack",
+        "patched crack",
+        "pothole"
+      ],
+      "num_classes": 3,
+      "objects": 10,
+      "image_size": {
+        "width": 1280,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_09_c3_crack-patched_crack-pothole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "pothole",
+        "2": "patched crack",
+        "3": "patched pothole",
+        "4": "clay-patched crack",
+        "5": "manhole"
+      },
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c3_crack-patched_pothole-pothole.png",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/train/images\\0573_S3.png",
+      "classes": [
+        "crack",
+        "patched pothole",
+        "pothole"
+      ],
+      "num_classes": 3,
+      "objects": 10,
+      "image_size": {
+        "width": 1280,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "yolo",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_10_c3_crack-patched_pothole-pothole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "pothole",
+        "2": "patched crack",
+        "3": "patched pothole",
+        "4": "clay-patched crack",
+        "5": "manhole"
+      },
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}

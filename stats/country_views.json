@@ -4,7 +4,7 @@
   "view_order": [
     "all",
     "china",
-    "us"
+    "united_states"
   ],
   "views": {
     "all": {
@@ -2971,9 +2971,9 @@
         ]
       }
     },
-    "us": {
-      "id": "us",
-      "label": "US",
+    "united_states": {
+      "id": "united_states",
+      "label": "United States",
       "split_names": [
         "us_test",
         "us_train",
@@ -3861,37 +3861,37 @@
       "samples_summary": {
         "sample_count": 10,
         "slider_pairs": 10,
-        "samples_dir": "visualizations/country_views/us/samples",
-        "samples_manifest": "visualizations/country_views/us/samples/samples_manifest.json",
-        "sample_annotations_dir": "visualizations/country_views/us/samples/annotations"
+        "samples_dir": "visualizations/country_views/united_states/samples",
+        "samples_manifest": "visualizations/country_views/united_states/samples/samples_manifest.json",
+        "sample_annotations_dir": "visualizations/country_views/united_states/samples/annotations"
       },
       "spatial_heatmaps": {
         "generated": true,
-        "dir": "visualizations/country_views/us/spatial_heatmaps",
+        "dir": "visualizations/country_views/united_states/spatial_heatmaps",
         "classes": [
           {
             "class": "crack",
-            "file": "visualizations/country_views/us/spatial_heatmaps/crack.png"
+            "file": "visualizations/country_views/united_states/spatial_heatmaps/crack.png"
           },
           {
             "class": "patched crack",
-            "file": "visualizations/country_views/us/spatial_heatmaps/patched_crack.png"
+            "file": "visualizations/country_views/united_states/spatial_heatmaps/patched_crack.png"
           },
           {
             "class": "clay-patched crack",
-            "file": "visualizations/country_views/us/spatial_heatmaps/clay-patched_crack.png"
+            "file": "visualizations/country_views/united_states/spatial_heatmaps/clay-patched_crack.png"
           },
           {
             "class": "pothole",
-            "file": "visualizations/country_views/us/spatial_heatmaps/pothole.png"
+            "file": "visualizations/country_views/united_states/spatial_heatmaps/pothole.png"
           },
           {
             "class": "patched pothole",
-            "file": "visualizations/country_views/us/spatial_heatmaps/patched_pothole.png"
+            "file": "visualizations/country_views/united_states/spatial_heatmaps/patched_pothole.png"
           },
           {
             "class": "manhole",
-            "file": "visualizations/country_views/us/spatial_heatmaps/manhole.png"
+            "file": "visualizations/country_views/united_states/spatial_heatmaps/manhole.png"
           }
         ]
       }

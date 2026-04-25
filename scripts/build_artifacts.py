@@ -91,10 +91,15 @@ def _build_country_lookup(config):
         cid = _slugify_token(name)
         if not cid:
             continue
+        aliases = _country_aliases(name)
+        if isinstance(item, dict):
+            extra_aliases = item.get("aliases", [])
+            if isinstance(extra_aliases, list):
+                aliases.update(_slugify_token(v) for v in extra_aliases if str(v).strip())
         lookup[cid] = {
             "id": cid,
             "label": name,
-            "aliases": _country_aliases(name),
+            "aliases": {a for a in aliases if a},
         }
     return lookup
 
