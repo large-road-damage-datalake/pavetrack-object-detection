@@ -24,8 +24,7 @@
   "imaging_setup": {
     "camera": "Vehicle-mounted industrial and commercial RGB cameras",
     "camera_viewpoint": [
-      "wide-view",
-      "top-down"
+      "wide-view"
     ],
     "resolution": "Country-dependent source resolutions",
     "lighting_conditions": "Real-world outdoor daylight and varying weather conditions",
@@ -36,8 +35,6 @@
         "name": "China",
         "resolutions": [
           "634x414",
-          "720x405",
-          "720x960",
           "735x563",
           "744x992",
           "750x1000",
@@ -90,14 +87,6 @@
             "count": 1
           },
           {
-            "resolution": "720x405",
-            "count": 1
-          },
-          {
-            "resolution": "720x960",
-            "count": 1
-          },
-          {
             "resolution": "735x563",
             "count": 1
           },
@@ -115,7 +104,7 @@
           },
           {
             "resolution": "816x612",
-            "count": 6
+            "count": 3
           },
           {
             "resolution": "900x600",
@@ -123,11 +112,11 @@
           },
           {
             "resolution": "960x540",
-            "count": 2
+            "count": 1
           },
           {
             "resolution": "1024x576",
-            "count": 3
+            "count": 2
           },
           {
             "resolution": "1024x768",
@@ -151,7 +140,7 @@
           },
           {
             "resolution": "1280x720",
-            "count": 7690
+            "count": 7215
           },
           {
             "resolution": "1280x960",
@@ -179,7 +168,7 @@
           },
           {
             "resolution": "1632x918",
-            "count": 13
+            "count": 12
           },
           {
             "resolution": "1632x1224",
@@ -199,11 +188,11 @@
           },
           {
             "resolution": "1920x1080",
-            "count": 41132
+            "count": 36755
           },
           {
             "resolution": "1920x1088",
-            "count": 810
+            "count": 797
           },
           {
             "resolution": "1920x1440",
@@ -219,11 +208,11 @@
           },
           {
             "resolution": "2000x1496",
-            "count": 11
+            "count": 10
           },
           {
             "resolution": "2000x1500",
-            "count": 51
+            "count": 47
           },
           {
             "resolution": "2016x1512",
@@ -231,7 +220,7 @@
           },
           {
             "resolution": "2048x1536",
-            "count": 61
+            "count": 58
           },
           {
             "resolution": "2200x1650",
@@ -255,7 +244,7 @@
           },
           {
             "resolution": "4000x2992",
-            "count": 131
+            "count": 125
           },
           {
             "resolution": "4000x3000",
@@ -271,7 +260,7 @@
           },
           {
             "resolution": "4160x3120",
-            "count": 9
+            "count": 8
           },
           {
             "resolution": "4608x3456",
@@ -303,14 +292,6 @@
         "count": 1
       },
       {
-        "resolution": "720x405",
-        "count": 1
-      },
-      {
-        "resolution": "720x960",
-        "count": 1
-      },
-      {
         "resolution": "735x563",
         "count": 1
       },
@@ -328,7 +309,7 @@
       },
       {
         "resolution": "816x612",
-        "count": 6
+        "count": 3
       },
       {
         "resolution": "900x600",
@@ -336,11 +317,11 @@
       },
       {
         "resolution": "960x540",
-        "count": 2
+        "count": 1
       },
       {
         "resolution": "1024x576",
-        "count": 3
+        "count": 2
       },
       {
         "resolution": "1024x768",
@@ -368,7 +349,7 @@
       },
       {
         "resolution": "1280x720",
-        "count": 7690
+        "count": 7215
       },
       {
         "resolution": "1280x960",
@@ -396,7 +377,7 @@
       },
       {
         "resolution": "1632x918",
-        "count": 13
+        "count": 12
       },
       {
         "resolution": "1632x1224",
@@ -416,11 +397,11 @@
       },
       {
         "resolution": "1920x1080",
-        "count": 41404
+        "count": 37027
       },
       {
         "resolution": "1920x1088",
-        "count": 810
+        "count": 797
       },
       {
         "resolution": "1920x1440",
@@ -436,11 +417,11 @@
       },
       {
         "resolution": "2000x1496",
-        "count": 11
+        "count": 10
       },
       {
         "resolution": "2000x1500",
-        "count": 51
+        "count": 47
       },
       {
         "resolution": "2016x1512",
@@ -448,7 +429,7 @@
       },
       {
         "resolution": "2048x1536",
-        "count": 61
+        "count": 58
       },
       {
         "resolution": "2200x1650",
@@ -472,7 +453,7 @@
       },
       {
         "resolution": "4000x2992",
-        "count": 131
+        "count": 125
       },
       {
         "resolution": "4000x3000",
@@ -488,7 +469,7 @@
       },
       {
         "resolution": "4160x3120",
-        "count": 9
+        "count": 8
       },
       {
         "resolution": "4608x3456",
@@ -507,7 +488,7 @@
           "description": "Unintentional break in pavement surface (longitudinal/transverse)",
           "color": "#E64A19",
           "canonical_name": "crack",
-          "instances": 76938
+          "instances": 72029
         },
         {
           "id": 2,
@@ -515,7 +496,7 @@
           "description": "Crack that has been repaired with patch material",
           "color": "#FF9800",
           "canonical_name": "repair.general",
-          "instances": 41692
+          "instances": 40847
         },
         {
           "id": 3,
@@ -523,7 +504,7 @@
           "description": "Bowl-shaped depression or hole in pavement surface",
           "color": "#6A1B9A",
           "canonical_name": "pothole",
-          "instances": 16271
+          "instances": 14140
         },
         {
           "id": 4,
@@ -531,7 +512,7 @@
           "description": "Pothole that has been repaired with patch material",
           "color": "#8E24AA",
           "canonical_name": "repair.general",
-          "instances": 8824
+          "instances": 8436
         },
         {
           "id": 5,
@@ -539,7 +520,7 @@
           "description": "Interconnected fatigue crack network (alligatoring)",
           "color": "#3949AB",
           "canonical_name": "crack.alligator",
-          "instances": 8224
+          "instances": 7853
         },
         {
           "id": 6,
@@ -547,7 +528,7 @@
           "description": "Alligator crack region that has been repaired",
           "color": "#5C6BC0",
           "canonical_name": "repair.general",
-          "instances": 2503
+          "instances": 2415
         },
         {
           "id": 7,
@@ -563,7 +544,7 @@
           "description": "Manhole cover or related utility cover feature",
           "color": "#455A64",
           "canonical_name": "context.manhole",
-          "instances": 28784
+          "instances": 25965
         },
         {
           "id": 9,
@@ -571,7 +552,7 @@
           "description": "Loose street debris/waste object on road surface",
           "color": "#00897B",
           "canonical_name": "context.object_fixed",
-          "instances": 6291
+          "instances": 3786
         },
         {
           "id": 10,
@@ -579,7 +560,7 @@
           "description": "Raised traffic-calming road feature",
           "color": "#C0CA33",
           "canonical_name": "context.speed_bump",
-          "instances": 2220
+          "instances": 322
         },
         {
           "id": 11,
@@ -587,7 +568,7 @@
           "description": "Standing water accumulation on pavement",
           "color": "#039BE5",
           "canonical_name": "context.surface_water",
-          "instances": 1102
+          "instances": 122
         }
       ]
     }
@@ -595,93 +576,6 @@
   "class_taxonomy": {
     "version": "road_damage_v2",
     "classes": [
-      {
-        "canonical_name": "context.manhole",
-        "display_name": "Manhole",
-        "damage_family": "context_non_damage",
-        "damage_subtype": "manhole",
-        "role": "context",
-        "semantic_role": "non_road_context",
-        "training_role": "context",
-        "status": "dataset_specific",
-        "is_damage_target": false,
-        "aliases": [
-          "street_inventory",
-          "manhole cover",
-          "manhole"
-        ],
-        "source_labels": [
-          "manhole"
-        ],
-        "taxonomy_source": "codebook_specialized",
-        "taxonomy_unresolved": false,
-        "mapping_type": "codebook-based",
-        "mapping_confidence": "high"
-      },
-      {
-        "canonical_name": "context.object_fixed",
-        "display_name": "Street Waste",
-        "damage_family": "context_non_damage",
-        "damage_subtype": "street_waste",
-        "role": "context",
-        "semantic_role": "non_road_context",
-        "training_role": "context",
-        "status": "dataset_specific",
-        "is_damage_target": false,
-        "aliases": [
-          "object_fixed",
-          "street waste"
-        ],
-        "source_labels": [
-          "street waste"
-        ],
-        "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false,
-        "mapping_type": "codebook-based",
-        "mapping_confidence": "high"
-      },
-      {
-        "canonical_name": "context.speed_bump",
-        "display_name": "Speed Bump",
-        "damage_family": "context_non_damage",
-        "damage_subtype": "speed_bump",
-        "role": "context",
-        "semantic_role": "road_feature",
-        "training_role": "context",
-        "status": "stable",
-        "is_damage_target": false,
-        "aliases": [
-          "speed bump"
-        ],
-        "source_labels": [
-          "speed bump"
-        ],
-        "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false,
-        "mapping_type": "codebook-based",
-        "mapping_confidence": "high"
-      },
-      {
-        "canonical_name": "context.surface_water",
-        "display_name": "Puddle",
-        "damage_family": "context_non_damage",
-        "damage_subtype": "surface_water",
-        "role": "context",
-        "semantic_role": "road_feature",
-        "training_role": "context",
-        "status": "stable",
-        "is_damage_target": false,
-        "aliases": [
-          "puddle"
-        ],
-        "source_labels": [
-          "puddle"
-        ],
-        "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false,
-        "mapping_type": "codebook-based",
-        "mapping_confidence": "high"
-      },
       {
         "canonical_name": "crack",
         "display_name": "Crack",
@@ -693,55 +587,10 @@
         "status": "stable",
         "is_damage_target": true,
         "aliases": [
-          "crack",
-          "cracked"
+          "Crack"
         ],
         "source_labels": [
           "crack"
-        ],
-        "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false,
-        "mapping_type": "codebook-based",
-        "mapping_confidence": "high"
-      },
-      {
-        "canonical_name": "crack.alligator",
-        "display_name": "Alligator Crack",
-        "damage_family": "crack",
-        "damage_subtype": "alligator",
-        "role": "damage_target",
-        "semantic_role": "damage",
-        "training_role": "target",
-        "status": "stable",
-        "is_damage_target": true,
-        "aliases": [
-          "alligator",
-          "Alligator crack",
-          "Aligator Crack"
-        ],
-        "source_labels": [
-          "alligator crack"
-        ],
-        "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false,
-        "mapping_type": "codebook-based",
-        "mapping_confidence": "high"
-      },
-      {
-        "canonical_name": "pothole",
-        "display_name": "Pothole",
-        "damage_family": "pothole",
-        "damage_subtype": "generic",
-        "role": "damage_target",
-        "semantic_role": "damage",
-        "training_role": "target",
-        "status": "stable",
-        "is_damage_target": true,
-        "aliases": [
-          "pothole"
-        ],
-        "source_labels": [
-          "pothole"
         ],
         "taxonomy_source": "codebook",
         "taxonomy_unresolved": false,
@@ -777,90 +626,191 @@
         "mapping_confidence": "high"
       },
       {
-        "canonical_name": "unknown.example_class",
-        "display_name": "Example Class",
-        "damage_family": "unknown",
-        "damage_subtype": "",
-        "role": "unknown",
-        "semantic_role": "unknown",
-        "training_role": "ignore",
+        "canonical_name": "pothole",
+        "display_name": "Pothole",
+        "damage_family": "pothole",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
+        "is_damage_target": true,
+        "aliases": [
+          "Pothole"
+        ],
+        "source_labels": [
+          "pothole"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "crack.alligator",
+        "display_name": "Alligator Crack",
+        "damage_family": "crack",
+        "damage_subtype": "alligator",
+        "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
+        "is_damage_target": true,
+        "aliases": [
+          "Alligator Crack"
+        ],
+        "source_labels": [
+          "alligator crack"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "context.manhole",
+        "display_name": "Manhole",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "manhole",
+        "role": "context",
+        "semantic_role": "road_feature",
+        "training_role": "context",
         "status": "dataset_specific",
         "is_damage_target": false,
         "aliases": [
-          "example_class"
+          "Manhole"
         ],
         "source_labels": [
-          "example_class"
+          "manhole"
         ],
-        "taxonomy_source": "fallback_unknown",
-        "taxonomy_unresolved": true,
-        "mapping_type": "lossy",
-        "mapping_confidence": "low",
-        "mapping_note": "No deterministic alias or codebook mapping found",
-        "mapping_status": "draft"
+        "taxonomy_source": "codebook_specialized",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "context.object_fixed",
+        "display_name": "Street Waste",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "street_waste",
+        "role": "context",
+        "semantic_role": "non_road_context",
+        "training_role": "context",
+        "status": "dataset_specific",
+        "is_damage_target": false,
+        "aliases": [
+          "Street Waste"
+        ],
+        "source_labels": [
+          "street waste"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "context.speed_bump",
+        "display_name": "Speed Bump",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "speed_bump",
+        "role": "context",
+        "semantic_role": "road_feature",
+        "training_role": "context",
+        "status": "stable",
+        "is_damage_target": false,
+        "aliases": [
+          "Speed Bump"
+        ],
+        "source_labels": [
+          "speed bump"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "context.surface_water",
+        "display_name": "Puddle",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "surface_water",
+        "role": "context",
+        "semantic_role": "road_feature",
+        "training_role": "context",
+        "status": "stable",
+        "is_damage_target": false,
+        "aliases": [
+          "Puddle"
+        ],
+        "source_labels": [
+          "puddle"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       }
     ],
     "damage_types": [
       "crack",
       "pothole"
     ],
-    "unresolved_labels": [
-      "example_class"
-    ]
+    "unresolved_labels": []
   },
   "statistics": {
-    "n_images": 51012,
-    "n_annotations": 193177,
-    "n_images_with_annotations": 51012,
-    "average_annotations_per_image": 3.786893280012546,
-    "dataset_size": "30.53 GB",
-    "dataset_size_bytes": 32783000768,
-    "dataset_file_count": 102024,
+    "n_images": 46124,
+    "n_annotations": 176243,
+    "n_images_with_annotations": 46124,
+    "average_annotations_per_image": 3.821069291475154,
+    "dataset_size": "27.43 GB",
+    "dataset_size_bytes": 29449389002,
+    "dataset_file_count": 92248,
     "image_format": "yolo",
     "class_distribution": {
-      "street waste": 6291,
-      "patched crack": 41692,
-      "patched pothole": 8824,
-      "alligator crack": 8224,
-      "pothole": 16271,
-      "crack": 76938,
-      "puddle": 1102,
-      "manhole": 28784,
-      "speed bump": 2220,
-      "patched alligator crack": 2503,
+      "street waste": 3786,
+      "patched crack": 40847,
+      "patched pothole": 8436,
+      "alligator crack": 7853,
+      "pothole": 14140,
+      "crack": 72029,
+      "puddle": 122,
+      "manhole": 25965,
+      "speed bump": 322,
+      "patched alligator crack": 2415,
       "clay-patched crack": 328
     },
     "split": {
       "china_train": {
-        "n_images": 35000,
-        "percentage": 0.69,
-        "n_images_with_annotations": 35000,
+        "n_images": 31513,
+        "percentage": 0.68,
+        "n_images_with_annotations": 31513,
         "annotation_coverage": 1.0,
-        "dataset_size": "20.28 GB",
-        "dataset_size_bytes": 21773713219,
-        "dataset_file_count": 70000
+        "dataset_size": "18.06 GB",
+        "dataset_size_bytes": 19391882535,
+        "dataset_file_count": 63026
       },
       "china_val": {
-        "n_images": 7500,
+        "n_images": 6783,
         "percentage": 0.15,
-        "n_images_with_annotations": 7500,
+        "n_images_with_annotations": 6783,
         "annotation_coverage": 1.0,
-        "dataset_size": "4.36 GB",
-        "dataset_size_bytes": 4678252791,
-        "dataset_file_count": 15000
+        "dataset_size": "3.90 GB",
+        "dataset_size_bytes": 4190199262,
+        "dataset_file_count": 13566
       },
       "china_test": {
-        "n_images": 7500,
+        "n_images": 6816,
         "percentage": 0.15,
-        "n_images_with_annotations": 7500,
+        "n_images_with_annotations": 6816,
         "annotation_coverage": 1.0,
-        "dataset_size": "4.35 GB",
-        "dataset_size_bytes": 4666797605,
-        "dataset_file_count": 15000
+        "dataset_size": "3.91 GB",
+        "dataset_size_bytes": 4203070052,
+        "dataset_file_count": 13632
       },
       "us_train": {
         "n_images": 711,
-        "percentage": 0.01,
+        "percentage": 0.02,
         "n_images_with_annotations": 711,
         "annotation_coverage": 1.0,
         "dataset_size": "1.08 GB",
@@ -891,8 +841,8 @@
     "countries": [
       {
         "name": "China",
-        "image_count": 50000,
-        "annotated_image_count": 50000,
+        "image_count": 45112,
+        "annotated_image_count": 45112,
         "annotation_coverage": 1.0
       },
       {
@@ -970,7 +920,7 @@
     "homepage": "https://www.scidb.cn/en/detail?dataSetId=e9ffbca43e6e4a5ebdd25663d0de9ad1"
   },
   "citation": {
-    "bibtex": "@article{yang2025pavetrack,\n  title = {A Large-Scale Image Repository for Automated Pavement Distress Analysis and Degradation Trend Prediction},\n  author = {Yang, Hanlin and Cao, Jinpu and Wan, Jun and Gao, Qian and Liu, Chenglong and Fischer, Martin and Du, Yuchuan and Li, Yishun and Jain, Pooja and Wu, Difei},\n  journal = {Scientific Data},\n  volume = {12},\n  pages = {1426},\n  year = {2025},\n  doi = {10.1038/s41597-025-05748-5},\n  url = {https://www.nature.com/articles/s41597-025-05748-5}\n\n@dataset{yang2025pavetrack_scidb,\n  title = {PaveTrack: A Large-Scale Image Repository for Automated Pavement Distress Analysis and Degradation Trend Prediction},\n  year = {2025},\n  doi = {10.57760/sciencedb.20383},\n  url = {https://doi.org/10.57760/sciencedb.20383}}"
+    "bibtex": "@article{yang2025pavetrack,\n  title = {A Large-Scale Image Repository for Automated Pavement Distress Analysis and Degradation Trend Prediction},\n  author = {Yang, Hanlin and Cao, Jinpu and Wan, Jun and Gao, Qian and Liu, Chenglong and Fischer, Martin and Du, Yuchuan and Li, Yishun and Jain, Pooja and Wu, Difei},\n  journal = {Scientific Data},\n  volume = {12},\n  pages = {1426},\n  year = {2025},\n  doi = {10.1038/s41597-025-05748-5},\n  url = {https://www.nature.com/articles/s41597-025-05748-5}\n}\nn@dataset{yang2025pavetrack_scidb,\n  title = {PaveTrack: A Large-Scale Image Repository for Automated Pavement Distress Analysis and Degradation Trend Prediction},\n  year = {2025},\n  doi = {10.57760/sciencedb.20383},\n  url = {https://doi.org/10.57760/sciencedb.20383}\n}"
   },
   "tags": [
     "object-detection",

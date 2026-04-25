@@ -1,65 +1,65 @@
 {
-  "total_images": 51012,
-  "total_annotations": 193177,
+  "total_images": 46124,
+  "total_annotations": 176243,
   "total_classes": 11,
   "splits_breakdown": {
     "china_train": {
-      "images": 35000,
-      "annotations": 130697,
+      "images": 31513,
+      "annotations": 118771,
       "classes": {
-        "street waste": 4420,
-        "patched crack": 29042,
-        "patched pothole": 6131,
-        "alligator crack": 5681,
-        "pothole": 10747,
-        "crack": 50458,
-        "puddle": 792,
-        "manhole": 20070,
-        "speed bump": 1578,
-        "patched alligator crack": 1778
+        "street waste": 2644,
+        "patched crack": 28016,
+        "patched pothole": 5855,
+        "alligator crack": 5424,
+        "pothole": 9763,
+        "crack": 46997,
+        "puddle": 80,
+        "manhole": 18056,
+        "speed bump": 226,
+        "patched alligator crack": 1710
       }
     },
     "china_val": {
-      "images": 7500,
-      "annotations": 28175,
+      "images": 6783,
+      "annotations": 25500,
       "classes": {
-        "street waste": 922,
-        "patched crack": 6320,
-        "patched pothole": 1331,
-        "puddle": 165,
-        "crack": 10863,
-        "speed bump": 325,
-        "pothole": 2269,
-        "manhole": 4347,
-        "alligator crack": 1285,
-        "patched alligator crack": 348
+        "street waste": 562,
+        "patched crack": 6100,
+        "patched pothole": 1273,
+        "crack": 10029,
+        "manhole": 3927,
+        "pothole": 1972,
+        "alligator crack": 1226,
+        "puddle": 20,
+        "patched alligator crack": 344,
+        "speed bump": 47
       }
     },
     "china_test": {
-      "images": 7500,
-      "annotations": 28318,
+      "images": 6816,
+      "annotations": 25985,
       "classes": {
-        "patched crack": 6274,
-        "patched pothole": 1325,
-        "street waste": 949,
-        "speed bump": 317,
-        "crack": 10733,
-        "alligator crack": 1258,
-        "manhole": 4341,
-        "pothole": 2599,
-        "patched alligator crack": 377,
-        "puddle": 145
+        "patched crack": 6075,
+        "patched pothole": 1271,
+        "street waste": 580,
+        "crack": 10119,
+        "alligator crack": 1203,
+        "manhole": 3956,
+        "speed bump": 49,
+        "pothole": 2349,
+        "patched alligator crack": 361,
+        "puddle": 22
       }
     },
     "us_train": {
       "images": 711,
       "annotations": 4222,
       "classes": {
-        "pothole": 462,
+        "patched crack": 462,
         "crack": 3439,
         "manhole": 18,
         "patched pothole": 26,
-        "patched crack": 42,
+        "pothole": 42,
         "clay-patched crack": 235
       }
     },
@@ -68,10 +68,10 @@
       "annotations": 900,
       "classes": {
         "crack": 752,
-        "pothole": 87,
+        "patched crack": 87,
         "manhole": 4,
         "patched pothole": 6,
-        "patched crack": 6,
+        "pothole": 6,
         "clay-patched crack": 45
       }
     },
@@ -80,10 +80,10 @@
       "annotations": 865,
       "classes": {
         "crack": 693,
-        "pothole": 107,
+        "patched crack": 107,
         "manhole": 4,
         "patched pothole": 5,
-        "patched crack": 8,
+        "pothole": 8,
         "clay-patched crack": 48
       }
     }

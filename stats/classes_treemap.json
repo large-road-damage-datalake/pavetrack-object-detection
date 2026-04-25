@@ -6,47 +6,47 @@
       "data": [
         {
           "x": "crack",
-          "y": 3.1648
+          "y": 3.2384
         },
         {
           "x": "patched crack",
-          "y": 4.1084
+          "y": 4.5542
         },
         {
           "x": "manhole",
-          "y": 0.7344
+          "y": 0.733
         },
         {
           "x": "pothole",
-          "y": 1.7633
+          "y": 0.9356
         },
         {
           "x": "patched pothole",
-          "y": 2.8125
+          "y": 2.853
         },
         {
           "x": "alligator crack",
-          "y": 7.2376
+          "y": 7.3103
         },
         {
           "x": "street waste",
-          "y": 0.6297
+          "y": 0.318
         },
         {
           "x": "patched alligator crack",
-          "y": 4.6516
-        },
-        {
-          "x": "speed bump",
-          "y": 4.0228
-        },
-        {
-          "x": "puddle",
-          "y": 6.2868
+          "y": 4.727
         },
         {
           "x": "clay-patched crack",
           "y": 0.8546
+        },
+        {
+          "x": "speed bump",
+          "y": 5.624
+        },
+        {
+          "x": "puddle",
+          "y": 11.2341
         }
       ]
     }

@@ -35,16 +35,16 @@
       "file": "visualizations/spatial_heatmaps/patched_alligator_crack.png"
     },
     {
+      "class": "clay-patched crack",
+      "file": "visualizations/spatial_heatmaps/clay-patched_crack.png"
+    },
+    {
       "class": "speed bump",
       "file": "visualizations/spatial_heatmaps/speed_bump.png"
     },
     {
       "class": "puddle",
       "file": "visualizations/spatial_heatmaps/puddle.png"
-    },
-    {
-      "class": "clay-patched crack",
-      "file": "visualizations/spatial_heatmaps/clay-patched_crack.png"
     }
   ]
 }

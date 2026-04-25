@@ -2,15 +2,15 @@
 
 ## Overview
 
-PaveTrack is a task-specific package derived from the Science Data Bank release of PaveTrack_OD.
+PaveTrack is a task-specific package derived from the Science Data Bank release of PaveTrack.
 
 - Task: object_detection
-- Images: 51012
-- Annotations: 193177
+- Images: 46124
+- Annotations: 176243
 - Classes: 11 (alligator crack, clay-patched crack, crack, manhole, patched alligator crack, patched crack, patched pothole, pothole, puddle, speed bump, street waste)
 - Annotation format: YOLO TXT bounding boxes
 
-This package preserves the multi-country split structure (China and US) and keeps split-level metadata for country-aware analysis.
+This package preserves the multi-country split structure (China and United States) and keeps split-level metadata for country-aware analysis.
 
 ## Source Dataset
 

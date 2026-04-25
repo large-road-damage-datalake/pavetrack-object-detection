@@ -1,241 +1,108 @@
 {
   "samples": [
     {
-      "file": "sample_01_c3_crack-patched_crack-pothole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\n00080-2022-11-01_11-18-01-733.jpg",
+      "file": "sample_01_c3_crack-manhole-pothole.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/val/images\\000072-2022-03-05_08-46-36-147.jpg",
       "classes": [
         "crack",
-        "patched crack",
+        "manhole",
         "pothole"
       ],
       "num_classes": 3,
-      "objects": 3,
-      "image_size": {
-        "width": 1280,
-        "height": 720
-      },
-      "resized_from": {
-        "width": 1920,
-        "height": 1080
-      },
-      "annotation_mode": "bbox",
-      "annotation_format": "yolo",
-      "annotated_file": null,
-      "annotation_file": "annotations/sample_01_c3_crack-patched_crack-pothole_annotation.txt",
-      "slider_ready": true
+      "objects": 15
     },
     {
-      "file": "sample_02_c2_manhole-patched_pothole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/val\\000123-2022-09-08_13-29-18-967.jpg",
+      "file": "sample_02_c1_manhole.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\000126-2022-10-11_10-03-28-268.jpg",
       "classes": [
-        "manhole",
-        "patched pothole"
+        "manhole"
       ],
-      "num_classes": 2,
-      "objects": 3,
-      "image_size": {
-        "width": 1280,
-        "height": 720
-      },
-      "resized_from": {
-        "width": 1920,
-        "height": 1080
-      },
-      "annotation_mode": "bbox",
-      "annotation_format": "yolo",
-      "annotated_file": null,
-      "annotation_file": "annotations/sample_02_c2_manhole-patched_pothole_annotation.txt",
-      "slider_ready": true
+      "num_classes": 1,
+      "objects": 3
     },
     {
-      "file": "sample_03_c2_alligator_crack-crack.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\000032-2021-02-20_12-13-12-346.jpg",
+      "file": "sample_03_c2_crack-patched_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\000033-2021-01-13_12-13-04-375.jpg",
       "classes": [
-        "alligator crack",
-        "crack"
+        "crack",
+        "patched crack"
       ],
       "num_classes": 2,
-      "objects": 7,
-      "image_size": {
-        "width": 1280,
-        "height": 720
-      },
-      "resized_from": {
-        "width": 1920,
-        "height": 1080
-      },
-      "annotation_mode": "bbox",
-      "annotation_format": "yolo",
-      "annotated_file": null,
-      "annotation_file": "annotations/sample_03_c2_alligator_crack-crack_annotation.txt",
-      "slider_ready": true
+      "objects": 2
     },
     {
       "file": "sample_04_c2_manhole-puddle.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\000018-2022-05-14_10-25-41-686.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\000018-2022-05-03_14-45-28-713.jpg",
       "classes": [
         "manhole",
         "puddle"
       ],
       "num_classes": 2,
-      "objects": 2,
-      "image_size": {
-        "width": 1280,
-        "height": 720
-      },
-      "resized_from": {
-        "width": 1920,
-        "height": 1080
-      },
-      "annotation_mode": "bbox",
-      "annotation_format": "yolo",
-      "annotated_file": null,
-      "annotation_file": "annotations/sample_04_c2_manhole-puddle_annotation.txt",
-      "slider_ready": true
+      "objects": 2
     },
     {
-      "file": "sample_05_c2_patched_crack-pothole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\000050-2022-05-12_08-39-14-991.jpg",
+      "file": "sample_05_c3_crack-manhole-patched_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\000050-2022-05-13_10-31-39-360.jpg",
       "classes": [
-        "patched crack",
-        "pothole"
-      ],
-      "num_classes": 2,
-      "objects": 3,
-      "image_size": {
-        "width": 1280,
-        "height": 720
-      },
-      "resized_from": {
-        "width": 1920,
-        "height": 1080
-      },
-      "annotation_mode": "bbox",
-      "annotation_format": "yolo",
-      "annotated_file": null,
-      "annotation_file": "annotations/sample_05_c2_patched_crack-pothole_annotation.txt",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_06_c2_manhole-patched_pothole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\000123-2022-09-09_06-03-07-070.jpg",
-      "classes": [
+        "crack",
         "manhole",
+        "patched crack"
+      ],
+      "num_classes": 3,
+      "objects": 10
+    },
+    {
+      "file": "sample_06_c4_crack-manhole-patched_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\000123-2022-10-31_10-04-00-375.jpg",
+      "classes": [
+        "crack",
+        "manhole",
+        "patched crack",
         "patched pothole"
       ],
-      "num_classes": 2,
-      "objects": 4,
-      "image_size": {
-        "width": 1280,
-        "height": 720
-      },
-      "resized_from": {
-        "width": 1920,
-        "height": 1080
-      },
-      "annotation_mode": "bbox",
-      "annotation_format": "yolo",
-      "annotated_file": null,
-      "annotation_file": "annotations/sample_06_c2_manhole-patched_pothole_annotation.txt",
-      "slider_ready": true
+      "num_classes": 4,
+      "objects": 6
     },
     {
-      "file": "sample_07_c2_manhole-speed_bump.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\000123-2022-05-21_07-49-37-700.jpg",
+      "file": "sample_07_c1_speed_bump.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\000118-2022-06-01_10-44-33-134.jpg",
       "classes": [
-        "manhole",
         "speed bump"
       ],
-      "num_classes": 2,
-      "objects": 2,
-      "image_size": {
-        "width": 1280,
-        "height": 720
-      },
-      "resized_from": {
-        "width": 1920,
-        "height": 1080
-      },
-      "annotation_mode": "bbox",
-      "annotation_format": "yolo",
-      "annotated_file": null,
-      "annotation_file": "annotations/sample_07_c2_manhole-speed_bump_annotation.txt",
-      "slider_ready": true
+      "num_classes": 1,
+      "objects": 1
     },
     {
-      "file": "sample_08_c6_alligator_crack-crack-manhole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\n00088-2023-02-02_07-43-50-345.jpg",
+      "file": "sample_08_c4_manhole-patched_alligator_crack-patched_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/val/images\\000033-2021-11-04_11-50-39-245.jpg",
       "classes": [
-        "alligator crack",
-        "crack",
         "manhole",
         "patched alligator crack",
         "patched crack",
         "patched pothole"
       ],
-      "num_classes": 6,
-      "objects": 10,
-      "image_size": {
-        "width": 1280,
-        "height": 720
-      },
-      "resized_from": {
-        "width": 1920,
-        "height": 1080
-      },
-      "annotation_mode": "bbox",
-      "annotation_format": "yolo",
-      "annotated_file": null,
-      "annotation_file": "annotations/sample_08_c6_alligator_crack-crack-manhole_annotation.txt",
-      "slider_ready": true
+      "num_classes": 4,
+      "objects": 9
     },
     {
-      "file": "sample_09_c2_alligator_crack-crack.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/test\\000156-2022-05-15_13-29-57-584.jpg",
+      "file": "sample_09_c1_alligator_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/test/images\\n00048-2022-11-11_11-15-47-083.jpg",
       "classes": [
-        "alligator crack",
-        "crack"
+        "alligator crack"
       ],
-      "num_classes": 2,
-      "objects": 2,
-      "image_size": {
-        "width": 1280,
-        "height": 720
-      },
-      "resized_from": {
-        "width": 1920,
-        "height": 1080
-      },
-      "annotation_mode": "bbox",
-      "annotation_format": "yolo",
-      "annotated_file": null,
-      "annotation_file": "annotations/sample_09_c2_alligator_crack-crack_annotation.txt",
-      "slider_ready": true
+      "num_classes": 1,
+      "objects": 1
     },
     {
       "file": "sample_10_c2_clay-patched_crack-crack.png",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/images/train\\0605_S4.png",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/US/train/images\\0605_S4.png",
       "classes": [
         "clay-patched crack",
         "crack"
       ],
       "num_classes": 2,
-      "objects": 3,
-      "image_size": {
-        "width": 1280,
-        "height": 600
-      },
-      "resized_from": {
-        "width": 1280,
-        "height": 600
-      },
-      "annotation_mode": "bbox",
-      "annotation_format": "yolo",
-      "annotated_file": null,
-      "annotation_file": "annotations/sample_10_c2_clay-patched_crack-crack_annotation.txt",
-      "slider_ready": true
+      "objects": 3
     }
   ],
-  "count": 10,
-  "slider_pairs": 10
+  "count": 10
 }

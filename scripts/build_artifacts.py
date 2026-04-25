@@ -778,7 +778,13 @@ def _find_sample_annotation_info(sample_src, config, splits, coco_cache):
     if fmt == "yolo" and split:
         txt_path = os.path.join(split.get("annotations", ""), basename + ".txt")
         if os.path.isfile(txt_path):
-            return {"mode": "bbox", "format": "yolo", "source_path": txt_path}
+            return {
+                "mode": "bbox",
+                "format": "yolo",
+                "source_path": txt_path,
+                "class_map": dict(split.get("class_map", {}) or {}),
+                "class_exclude": list(split.get("class_exclude", []) or []),
+            }
 
     if fmt == "coco" and split:
         coco_path = split.get("annotations", "")
@@ -2114,6 +2120,7 @@ def _build_preview_assets(config, output_dir, stats_data, samples_rel_dir="visua
                 entry["annotation_file"] = (
                     f"annotations/{ann_copy_name}".replace("\\", "/") if ann_copy_name else None
                 )
+                entry["class_map"] = dict(ann_info.get("class_map", {}) or {})
                 entry["slider_ready"] = bool(ann_copy_name)
                 if ann_copy_name:
                     slider_pairs += 1

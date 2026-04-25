@@ -2,7 +2,7 @@
   "samples": [
     {
       "file": "sample_01_c7_alligator_crack-crack-manhole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\000126-2022-11-15_10-33-18-470.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\000126-2022-11-15_10-33-18-470.jpg",
       "classes": [
         "alligator crack",
         "crack",
@@ -26,11 +26,23 @@
       "annotation_format": "yolo",
       "annotated_file": null,
       "annotation_file": "annotations/sample_01_c7_alligator_crack-crack-manhole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_02_c3_crack-manhole-pothole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\6F5B6D61DDD847C5BA53747755253075.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\6F5B6D61DDD847C5BA53747755253075.jpg",
       "classes": [
         "crack",
         "manhole",
@@ -50,11 +62,23 @@
       "annotation_format": "yolo",
       "annotated_file": null,
       "annotation_file": "annotations/sample_02_c3_crack-manhole-pothole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_03_c1_street_waste.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/test\\865352040447863-1638167246010.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/test/images\\865352040447863-1638167246010.jpg",
       "classes": [
         "street waste"
       ],
@@ -72,11 +96,23 @@
       "annotation_format": "yolo",
       "annotated_file": null,
       "annotation_file": "annotations/sample_03_c1_street_waste_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_04_c4_alligator_crack-crack-patched_pothole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\C7EF33422AFD420FA75F828103502155.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\C7EF33422AFD420FA75F828103502155.jpg",
       "classes": [
         "alligator crack",
         "crack",
@@ -97,11 +133,23 @@
       "annotation_format": "yolo",
       "annotated_file": null,
       "annotation_file": "annotations/sample_04_c4_alligator_crack-crack-patched_pothole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_05_c3_alligator_crack-crack-manhole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\168541369878.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\168541369878.jpg",
       "classes": [
         "alligator crack",
         "crack",
@@ -121,11 +169,23 @@
       "annotation_format": "yolo",
       "annotated_file": null,
       "annotation_file": "annotations/sample_05_c3_alligator_crack-crack-manhole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_06_c3_crack-patched_pothole-pothole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/val\\B64C39F9F0D54A639493B80383264975.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/val/images\\B64C39F9F0D54A639493B80383264975.jpg",
       "classes": [
         "crack",
         "patched pothole",
@@ -145,11 +205,23 @@
       "annotation_format": "yolo",
       "annotated_file": null,
       "annotation_file": "annotations/sample_06_c3_crack-patched_pothole-pothole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_07_c2_manhole-patched_crack.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\869455049248764-1582326020092.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\869455049248764-1582326020092.jpg",
       "classes": [
         "manhole",
         "patched crack"
@@ -168,11 +240,23 @@
       "annotation_format": "yolo",
       "annotated_file": null,
       "annotation_file": "annotations/sample_07_c2_manhole-patched_crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_08_c3_crack-patched_pothole-pothole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/test\\FB573E69CF18441EA4C4C34240489237.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/test/images\\FB573E69CF18441EA4C4C34240489237.jpg",
       "classes": [
         "crack",
         "patched pothole",
@@ -192,11 +276,23 @@
       "annotation_format": "yolo",
       "annotated_file": null,
       "annotation_file": "annotations/sample_08_c3_crack-patched_pothole-pothole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_09_c4_manhole-patched_alligator_crack-patched_crack.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\865352040420209-1610248277010.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\865352040420209-1610248277010.jpg",
       "classes": [
         "manhole",
         "patched alligator crack",
@@ -217,11 +313,23 @@
       "annotation_format": "yolo",
       "annotated_file": null,
       "annotation_file": "annotations/sample_09_c4_manhole-patched_alligator_crack-patched_crack_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_10_c4_alligator_crack-crack-manhole.jpg",
-      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/images/train\\16848093202.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PaveTrack/China/train/images\\16848093202.jpg",
       "classes": [
         "alligator crack",
         "crack",
@@ -242,6 +350,18 @@
       "annotation_format": "yolo",
       "annotated_file": null,
       "annotation_file": "annotations/sample_10_c4_alligator_crack-crack-manhole_annotation.txt",
+      "class_map": {
+        "0": "crack",
+        "1": "patched crack",
+        "2": "pothole",
+        "3": "patched pothole",
+        "4": "alligator crack",
+        "5": "patched alligator crack",
+        "6": "manhole",
+        "7": "street waste",
+        "8": "speed bump",
+        "9": "puddle"
+      },
       "slider_ready": true
     }
   ],
