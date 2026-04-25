@@ -4,7 +4,7 @@
     "id": "pavetrack-object-detection",
     "name": "PaveTrack",
     "short_name": "pavetrack-od",
-    "description": "Object detection packaging of PaveTrack_OD, a multi-country pavement distress dataset released through Science Data Bank with YOLO annotations.",
+    "description": "Object detection packaging of PaveTrack, a multi-country pavement distress dataset released through Science Data Bank with YOLO annotations.",
     "year": 2025
   },
   "project_context": {
@@ -280,7 +280,7 @@
         ]
       },
       {
-        "name": "US",
+        "name": "United States",
         "resolutions": [
           "1280x600",
           "1920x1080"
@@ -896,7 +896,7 @@
         "annotation_coverage": 1.0
       },
       {
-        "name": "US",
+        "name": "United States",
         "image_count": 1012,
         "annotated_image_count": 1012,
         "annotation_coverage": 1.0
@@ -978,7 +978,7 @@
     "yolo",
     "multi-country",
     "china",
-    "us",
+    "united-states",
     "sciencedb"
   ],
   "source_publication": {
