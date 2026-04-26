@@ -912,7 +912,7 @@
       "role": "Dataset Creator"
     }
   ],
-  "license": "Science Data Bank terms (license not explicitly specified in linked record)",
+  "license": "Science Data Bank terms (license not explicitly specified)",
   "links": {
     "github": "https://github.com/large-road-damage-datalake/pavetrack-object-detection",
     "download": "https://www.scidb.cn/en/detail?dataSetId=e9ffbca43e6e4a5ebdd25663d0de9ad1",
